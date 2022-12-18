@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url('image/th.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.kit{
+    font-size: 80px;
+    color: rgb(239, 12, 12);
+}
+.img{
+    margin-top: 0%;
+    width: 200px;
+    height: 100px;
+    border: none;
+}
+#drum_field{
+    width: 80%;
+    height: 100px;
+}
+.btn{
+    width: 200px;
+    height: 200px;
+    margin-top: 5%;
+    margin-bottom:2%;
+    padding: 2%;
+    border-radius: 50%;
+    font-size: 100px;
+
+}
+.btn1{
+    background: url('image/crash.png');
+    background-size: cover;
+}
+.btn2{
+    background: url('image/hi hat.jpg');
+    background-size: cover;
+}
+.btn3{
+    background: url('image/snare.jpg');
+    background-size: cover;
+}
+.btn4{
+    background: url('image/tom.jpg');
+    background-size: cover;
+}
+.btn5{
+    background: url('image/bess.png');
+    background-size: cover;
+}
+.btn6{
+    background: url('image/medium.jpg');
+    background-size: cover;
+}
+.btn7{
+    background: url('image/ride.png');
+    background-size: cover;
+}
+.btn8{
+    background: url('image/flore.png');
+    background-size: cover;
+}
+/* .btn .btn btn1{
+    border-bottom-left-radius: 30%;
+    border-bottom-right-radius: 30%; 
+} */

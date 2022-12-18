@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drum Kit</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <center>
+        <div class="drum">
+            <h1><span class="kit">Drum <span><img class="img" src="image/drum.png" alt="Drum"></span> Kit</span></h1>
+
+            <div id="drum_field">
+                <button data-key="65" class = "btn btn1">A </button>
+                <button data-key="83" class = "btn btn2">S</button>
+                <button data-key="68" class = "btn btn3">D</button>
+                <button data-key="70" class = "btn btn4">F</button>
+                <button data-key="72" class = "btn btn5">H</button>
+                <button data-key="74" class = "btn btn6">J</button>
+                <button data-key="75" class = "btn btn7">K</button>
+                <button data-key="76" class = "btn btn8">L</button>
+            </div> 
+        </div>
+        <audio data-key="65" src="sound/Crash-Cymbal.mp3"></audio>
+        <audio data-key="83" src="sound/Hi-Hat.mp3"></audio>
+        <audio data-key="68" src="sound/Snare-Drum.mp3"></audio>
+        <audio data-key="70" src="sound/Small-Tom.mp3"></audio>
+        <audio data-key="72" src="sound/Bass-Drum.mp3"></audio>
+        <audio data-key="74" src="sound/Medium-Tom.mp3"></audio>
+        <audio data-key="75" src="sound/Ride-Cymbal.mp3"></audio>
+        <audio data-key="76" src="sound/Floor-Tom.mp3"></audio>
+        
+    </center>
+    <script src="script.js"></script>
+</body>
+</html>
